@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo $(curl -T $1 https://transfer.sh) | xclip -sel c
+echo "Link Copied! "
+
+
+notify-send "$1 Uploaded" 
