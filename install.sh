@@ -1,13 +1,17 @@
-#!/bin/sh
+#!/bin/bash
+
+read -s -p "Enter Password for sudo: " sudoPW
 
 #####################################
+
+mkdir ~/.config
 
 cp -r ./.config ~/
 cp -r ./.local ~/
 cp -r ./.xinitrc ~/
 cp -r ./.zshrc ~/
 cp -r ./dmenu ~/.config/
-cp -r ./dwm/* ~/.config/
+cp -r ./dwm ~/.config/
 cp -r ./st ~/.config/
 
 #####################################
@@ -31,8 +35,16 @@ sudo cp -r ~/.config/st/st /bin
 
 # min-requirements
 
-sudo pacman -Sy --noconfirm \
-     noto-fonts noto-fonts-emoji noto-fonts-cjk ttf-jetbrains-mono ttf-joypixels ttf-font-awesome \
+sudo pacman -Sy xcompmgr libnotify dunst \
+     slock jq sed sxiv fzf xwallpaper python-pywal \
+     youtube-dl unclutter xclip maim git sxhkd zsh \
+     xdotool dash \
+     ttf-font-awesome \
+     xorg-server xorg-xinit xorg-xkill xorg-xsetroot \
+     xorg-xbacklight xorg-xprop \
+
+     #noto-fonts-cjk \
+
      #sxiv mpv ffmpeg imagemagick  \
      #fzf xwallpaper python-pywal youtube-dl unclutter xclip maim \
      #xdotool papirus-icon-theme brightnessctl  \
