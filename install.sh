@@ -31,6 +31,8 @@ sudo cp -r ~/.config/dmenu/dmenu /bin
 sudo cp -r ~/.config/dwm/dwm /bin
 sudo cp -r ~/.config/st/st /bin
 
+sudo cp -r ~/.local/bin/* /usr/local/bin
+
 #####################################
 
 # min-requirements
