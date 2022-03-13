@@ -5,6 +5,7 @@ read -s -p "Enter Password for sudo: " sudoPW
 #####################################
 
 mkdir ~/.config
+mkdir ~/pix
 
 cp -r ./.config ~/
 cp -r ./.local ~/
@@ -13,6 +14,7 @@ cp -r ./.zshrc ~/
 cp -r ./dmenu ~/.config/
 cp -r ./dwm ~/.config/
 cp -r ./st ~/.config/
+cp -r ./.local/share/wall ~/pix/
 
 #####################################
 
