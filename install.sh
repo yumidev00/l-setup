@@ -46,8 +46,7 @@ sudo pacman -Sy xcompmgr libnotify dunst \
      ttf-font-awesome \
      xorg-server xorg-xinit xorg-xkill xorg-xsetroot \
      xorg-xbacklight xorg-xprop \
-     
-     #noto-fonts noto-fonts-emoji noto-fonts-cjk ttf-jetbrains-mono ttf-joypixels ttf-font-awesome
+     noto-fonts noto-fonts-emoji noto-fonts-cjk ttf-jetbrains-mono ttf-joypixels ttf-font-awesome
 
      #noto-fonts-cjk \
 
