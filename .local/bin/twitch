@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#read -p "Enter streamer's id: " ID
+#ID=$(echo " " | dmenu -i -p "Enter streamer's id:")
+BASE="https://twitch.tv"
+ID=$1
+
+URL=$(youtube-dl -g "$BASE/$ID")
+
+mpv $URL --title="${ID}" 2>&1 >/dev/null 
+
