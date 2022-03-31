@@ -1,4 +1,4 @@
-<img src='Desktop.png' align='right' width='480px'/>
+<img src='Desktop.png' align='right' width='720px'/>
 
    ▴ **OS** -> [ARCH](https://archlinux.org/)
    
