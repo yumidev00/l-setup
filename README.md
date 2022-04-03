@@ -20,17 +20,17 @@
 
    <br>
 
-   ▴ **Timer** ==> [Pomotroid](https://archlinux.org/)
+   ▴ **Timer** ==> [Pomotroid](https://splode.github.io/pomotroid/)
    
    <br>
    
-   ▴ **Text-editor** ==> [nvim](https://archlinux.org/)
+   ▴ **Text-editor** ==> [neovim](https://neovim.io/)
    
    <br>
    
-   ▴ **Audio-Visualizer** ==> [Cava](https://archlinux.org/)
+   ▴ **Audio-Visualizer** ==> [Cava](https://github.com/karlstav/cava/)
    
    <br>
    
-   ▴ **File-Manager** ==> [lf](https://archlinux.org/)
+   ▴ **File-Manager** ==> [lf](https://github.com/gokcehan/lf/)
    
