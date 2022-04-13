@@ -1,4 +1,4 @@
-<img src='Desktop.png' align='right' width='500px'/>
+<img src='Desktop.png' align='right' margin='10px' width='500px'/>
    
    ▴ **OS** >>> [ARCH](https://archlinux.org/)
    
@@ -16,7 +16,7 @@
    
    <br>
    
-<img src='W-Space.jpg' align='left' width='500px'/>
+<img src='W-Space.jpg' align='left' margin='10px' width='500px'/>
 
    <br>
 
