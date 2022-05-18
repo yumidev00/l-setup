@@ -10,6 +10,7 @@ mkdir ~/pix
 cp -r ./.config ~/
 cp -r ./.local ~/
 cp -r ./.xinitrc ~/
+cp -r ./.bash_profile ~/
 cp -r ./.zshrc ~/
 cp -r ./dmenu ~/.config/
 cp -r ./dwm ~/.config/
