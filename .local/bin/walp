@@ -2,7 +2,7 @@ if [ -z $1];
 then
        walp $(sxiv -t -a -o ~/pix/wall/*)
 fi 
-xwallpaper --zoom ~/pix/wall/$1
+xwallpaper --zoom {$1}
 wal -c
 wal -i "$1"
 xdotool key super+F5
