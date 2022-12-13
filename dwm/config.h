@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const unsigned int borderpx  = 1;        /* border pixel of windows */
+static const unsigned int borderpx  = 3;        /* border pixel of windows */
 static const unsigned int gappx     = 5;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int swallowfloating    = 0;        /* 1 means swallow floating windows by default */
@@ -20,16 +20,6 @@ static char *colors[][3] = {
        [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
        [SchemeSel]  = { selfgcolor,  selbgcolor,  selbordercolor  },
 };
-
-
-//include "$HOME/.cache/wal/colors-wal-dmenu.h"
-//static const char *colors[SchemeLast][2] = {
-//	/*     fg         bg       */
-//	[SchemeNorm] = { "#c1c7cc", "#0a1115" },
-//	[SchemeSel] = { "#c1c7cc", "#516369" },
-//	[SchemeOut] = { "#c1c7cc", "#72A2C5" },
-//};
-//
 
 /* tagging */
 static const char *tags[] = { "一", "二", "三", "四", "五", "六", "七", "八", "九" };
@@ -86,7 +76,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_f,	   zoom,           {0} },
 	{ MODKEY,                       XK_d,      incnmaster,     {.i = -1 } },
 	{ MODKEY,                       XK_s,      incnmaster,     {.i = +1 } },
-	{ MODKEY,		    	XK_q,      killclient,     {0} },
+	{ MODKEY,		        XK_q,      killclient,     {0} },
 	{ MODKEY,                       XK_w,      setlayout,      {.v = &layouts[0]} },
 	{ MODKEY,                       XK_e,      setlayout,      {.v = &layouts[1]} },
 	{ MODKEY,                       XK_r,      setlayout,      {.v = &layouts[2]} },
@@ -133,4 +123,3 @@ static Button buttons[] = {
 	{ ClkTagBar,            MODKEY,         Button1,        tag,            {0} },
 	{ ClkTagBar,            MODKEY,         Button3,        toggletag,      {0} },
 };
-
