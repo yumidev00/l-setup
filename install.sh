@@ -58,4 +58,4 @@ sudo pacman -Sy xcompmgr libnotify dunst \
      #xcompmgr libnotify dunst slock jq sed \
      #dhcpcd networkmanager rsync pamixer
      
-     yay -Sy libxft-bgra-git
+     yay -Sy libxft-git
