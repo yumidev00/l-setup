@@ -1,0 +1,12 @@
+#!/bin/bash
+
+CACHE="${HOME}/.config/shcut/creds"
+
+if [ ! -f ${CAHCE} ]
+then
+	echo "There is no data available";
+	mkdir "${HOME}/.config/shcut" && echo "123456789 # Password" >> ${CACHE};
+	exit 0;
+fi
+
+xdotool type "$(cat ${CACHE} | dmenu -i -l 20 | cut -d '#' -f 1 | sed "s/  //g")";
